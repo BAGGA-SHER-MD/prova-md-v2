@@ -1,5 +1,5 @@
 {
-  "name": "node-db-app",
+  "name": "PROVA-MD-V2",
   "description": "A professional Node.js application configured with DATABASE_URL and DB_NAME for database connectivity on Heroku.",
   "repository": "https://github.com/your-username/your-repo-name",
   "logo": "https://node-js-active-record.herokuapp.com/assets/heroku-logo.png",
@@ -21,22 +21,6 @@
       "value": "my_application_db",
       "required": true
     },
-    "NODE_ENV": {
-      "description": "The environment mode for running the application",
-      "value": "production"
-    }
-  },
-  "formation": {
-    "web": {
-      "quantity": 1,
-      "size": "eco"
-    }
-  },
-  "addons": [
-    {
-      "plan": "heroku-postgresql:essential-0"
-    }
-  ],
   "buildpacks": [
     {
       "url": "heroku/nodejs"
