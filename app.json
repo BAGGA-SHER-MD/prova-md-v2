@@ -20,7 +20,8 @@
       "description": "The specific database name to connect to",
       "value": "my_application_db",
       "required": true
-    },
+    }
+  },
   "buildpacks": [
     {
       "url": "heroku/nodejs"
